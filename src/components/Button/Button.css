@@ -1,0 +1,12 @@
+button {
+  width: 150px;
+  height: 40px;
+  outline: none;
+  border-radius: 10px;
+  border: none !important;
+  color: white;
+  background: linear-gradient(180deg, #f2c94c 0%, #f2994a 100%);
+  font-size: 16px;
+  margin-right: 20%;
+  cursor: pointer;
+}

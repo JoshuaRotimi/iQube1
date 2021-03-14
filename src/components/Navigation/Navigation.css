@@ -1,0 +1,19 @@
+.head {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.active {
+  color: #f2994a !important;
+  font-weight: bold;
+  border-bottom: 10px solid #f2994a !important;
+  border-radius: 10px;
+}
+
+.head p {
+  color: #bdbdbd;
+  font-size: 18px;
+  padding-bottom: 19px;
+}

@@ -1,0 +1,165 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 710px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-text {
+  font-family: 'Product Sans';
+  text-align: left;
+  margin: 189px 0 59px 0;
+  color: #4e598c;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.form-container .input-1,
+.first > input,
+.first > select,
+select {
+  height: 40px;
+  border: 1px solid #4e598c;
+  border-radius: 10px;
+  text-indent: 10px;
+  margin-bottom: 40px;
+  margin-top: 16px;
+}
+.form-container input::placeholder {
+  font-family: 'Product Sans';
+}
+
+.form-container p {
+  font-size: 14px;
+  color: #817e9e;
+}
+.side-by-side {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-by-side .first,
+.state,
+.cvv {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+}
+
+.state {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  margin: 0 20px;
+}
+
+.form-container > .first > input {
+  width: 420px;
+}
+
+.bottom-container {
+  display: flex;
+}
+
+.cvv {
+  width: 100px;
+}
+
+.bottom-container p {
+  color: #4e598c;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.card {
+  width: 756px;
+  height: 405px;
+  box-shadow: 0px 10px 15px rgba(33, 30, 67, 0.08);
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 66px;
+  margin-bottom: 30px;
+}
+
+.card .card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 756px;
+  height: 70px;
+  background-color: #2f80ed;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.card .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+
+  color: #4e598c;
+  font-size: 18px;
+}
+.text-container {
+  width: 556px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  border: 1px solid #817e9e;
+  width: 556px;
+  padding: 0 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.confirmation img {
+  margin-top: 50px;
+}
+
+.confirmation .heading {
+  color: #4e598c;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+}
+
+.confirmation .subtitle {
+  color: #4f4f4f;
+  font-size: 18px;
+  text-align: left;
+}
+
+.confirmation .link {
+  font-size: 18px;
+  color: #f2c94c;
+  text-decoration: underline;
+  text-align: left;
+  cursor: pointer;
+}
