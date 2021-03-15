@@ -8,12 +8,12 @@
 .active {
   color: #f2994a !important;
   font-weight: bold;
-  border-bottom: 10px solid #f2994a !important;
+  border-bottom: 8px solid #f2994a !important;
   border-radius: 10px;
 }
 
 .head p {
   color: #bdbdbd;
   font-size: 18px;
-  padding-bottom: 19px;
+  padding-bottom: 15px;
 }
